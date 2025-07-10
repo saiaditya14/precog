@@ -1,4 +1,9 @@
 # README
 
-In this project an architecture was written and tested to perform OCR text detection of distorted text in various fonts, capitalisations, and noise, and given modelled performed well, attaining 70–80% accuracy on multiple randomly generatesed testsets with small sizes of 4000–5000 and attaining 90%+ accuracy upon increasing dataset size to 50000.
-Code was tested on google colab as ipynb's but here attached is the converted python file for the same. To recreate can run it locally, or put cell wise into a colab notebook and compile cell wise.
+This project implements and tests a custom architecture for OCR text detection on distorted text containing various fonts, capitalizations, and noise.
+
+The model demonstrated strong performance:
+- **70–80% accuracy** on small, randomly generated test sets (4,000–5,000 samples)
+- **90%+ accuracy** when trained on larger datasets (50,000+ samples)
+
+Development and testing were done in Google Colab using Jupyter notebooks. The attached `.py` file is a converted version of the notebook. You can run it locally or paste the code cell-by-cell into a Colab notebook to reproduce the results.
